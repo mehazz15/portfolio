@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+    }
+
+    section {
+      max-width: 600px;
+      margin: 2em auto;
+      padding: 2em;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 0.5em;
+    }
+
+    select, input {
+      width: 100%;
+      padding: 0.5em;
+      margin-bottom: 1em;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 0.5em 1em;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+    nav {
+      background-color: #555;
+      padding: 0.5em;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin: 0 1em;
+    }
+
+    .field 
+{
+    position: relative;
+    text-align: center;
+    box-sizing: border-box;
+    overflow: hidden;
+    cursor: pointer;
+    /* padding-right: 20%; */
+    display: inline;
+
+} 
+
+.popup-image {
+    max-width:20%;
+    height: auto;
+    border-radius: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: 1;
+}
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>CONTACT US HERE</h1>
+  </header>
+  <nav>
+    <a href="1st page.html">Home</a>
+    <a href="">About Us</a>
+  </nav>
+
+  <section>
+    <form action="#" method="post">
+      <h2>Personal Details</h2>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <br>Ph Number<input type="tel" name="tel" placeholder="+91 123456789" pattern="[1-9]{2} [0-9]{10}" title="country code" maxlength="14"><br><br>
+      <br>
+       
+      <div class="field" onclick="window.location.href='https:accounts.google.com/v3/signin/identifier?ifkv=ASKXGp0JAhlTtGPrPajVynUvqcuB4sYRfrdc0evOUjC0lqFiTNFRNOyBTkPaTkqTtQb4kS0pfxKyVA&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S-2013190611%3A1702450478808568&theme=glif'">
+        <img src="contact.webp" alt="Image 1" class="popup-image" >
+    </div>
+    <font color="white">gfhngdfgchvbcvbnm,.jnk</font> 
+      <div class="field" onclick="window.location.href='https:www.instagram.com/accounts/login/'">
+          <img src="insta.jpg" alt="Image 1" class="popup-image" width="50" height="20" >
+      </div>
+      <font color="white">gfhng</font> 
+      <div class="field" onclick="window.location.href='https:www.facebook.com/login/'">
+        <img src="face.jpg" alt="Image 1" class="popup-image" width="50" height="20">
+    </div>
+    <font color="white">gfhng</font> 
+    <div class="field" onclick="window.location.href='https:twitter.com/i/flow/login'">
+      <img src="X.png" alt="Image 1" class="popup-image" width="45" height="15">
+  </div>
+      
+      </div>
+    </form>
+  </section>
+
+</body>
+</html>
